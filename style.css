@@ -1,1 +1,31 @@
+:root {
+    --text-color: #dbee4d;
+    --card-front-color: #144480;
+    --card-back-color: #0074bf;
+}
 
+body {
+    background: url('');
+
+}
+
+#container {
+
+}
+
+.cartao {
+    flex-grow: 1;
+    flex-basis: ('');
+}
+
+.cartao_conteudo h3 {
+    color: var-(--text-color);
+}
+
+.cartao_conteudo_pergunta p {
+
+}
+
+.cartao_conteudo_resposta p {
+
+}
