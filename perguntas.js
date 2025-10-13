@@ -1,5 +1,35 @@
 criaCartao(
-    'Categoria'
-    'Pergunta'
+    'Categoria',
+    'Pergunta',
+    'Resposta'
+)
+
+criaCartao(
+    'Categoria',
+    'Pergunta',
+    'Resposta'
+)
+
+criaCartao(
+    'Categoria',
+    'Pergunta',
+    'Resposta'
+)
+
+criaCartao(
+    'Categoria',
+    'Pergunta',
+    'Resposta'
+)
+
+criaCartao(
+    'Categoria',
+    'Pergunta',
+    'Resposta'
+)
+
+criaCartao(
+    'Categoria',
+    'Pergunta',
     'Resposta'
 )
