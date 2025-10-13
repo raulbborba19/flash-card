@@ -1,35 +1,35 @@
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Espaço',
+    'Qual o maior planeta do sistema solar?',
+    'Júpiter'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Animais',
+    'Que filo os mamíferos estão?',
+    'Chordata'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Geografia',
+    'Qual o continente com mais pessoas?',
+    'Ásia'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Espaço',
+    'Qual o nome da galáxia que estamos',
+    'Via Láctea'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Animais',
+    'Baleia é um peixe ou um mamífero?',
+    'Mamíferos'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',
-    'Resposta'
+    'Geografia',
+    'Qual a língua mais falada na África?',
+    'Suaíli'
 )
