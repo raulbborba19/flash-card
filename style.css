@@ -6,26 +6,49 @@
 
 body {
     background: url('');
-
+    font-family: 'Bai Jamjuree';
 }
 
 #container {
-
+    display: flex
 }
 
 .cartao {
+    flex-grow: 1rem 1rem;
+    height: 20rem;
     flex-grow: 1;
-    flex-basis: ('');
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao_conteudo {
+    color: var(--text-color);
+    text-align: center;
+    height: 100%;
 }
 
 .cartao_conteudo h3 {
-    color: var-(--text-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1w;
+}
+
+.cartao_conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 4rem;
 }
 
 .cartao_conteudo_pergunta p {
-
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 .cartao_conteudo_resposta p {
-
+    color: var(--card-back-color);
+    font-weight: 700;
 }
