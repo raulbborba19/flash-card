@@ -24,6 +24,8 @@ body {
     color: var(--text-color);
     text-align: center;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao_conteudo h3 {
@@ -35,6 +37,7 @@ body {
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1w;
+    backface-visibility: hidden;
 }
 
 .cartao_conteudo p {
@@ -51,6 +54,18 @@ body {
 .cartao_conteudo_resposta p {
     color: var(--card-back-color);
     font-weight: 700;
+}
+
+.cartao:hover ,cartao_conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao_conteudo_pergunta,
+.cartaoo_conteudo_resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
