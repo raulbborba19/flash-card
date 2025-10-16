@@ -68,6 +68,10 @@ body {
     width: 100%;
 }
 
+.cartao_conteudo_resposta {
+    transform: rotateY(188deg);
+}
+
 footer {
     background-color: black;
     color: white;
