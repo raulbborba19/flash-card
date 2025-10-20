@@ -56,7 +56,7 @@ body {
     font-weight: 700;
 }
 
-.cartao.archive, cartao_conteudo {
+.cartao.archive cartao_conteudo {
     transform: rotateY(180deg);
 }
 
